@@ -12,7 +12,7 @@ const mongoose=require('mongoose');
 const employee = require('./routes/api/employeeData');
 const user = require('./routes/api/loginData');
 
-mongoose.connect('mongodb+srv://syam:syamAtlas@cluster0.2wlvq8k.mongodb.net/EmployeeDB?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://syam:syamkrish635@cluster0.2wlvq8k.mongodb.net/EmployeeDB?retryWrites=true&w=majority',
 {
     useNewUrlParser:true
 });
